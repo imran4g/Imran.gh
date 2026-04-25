@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Guess That Number!</title>
+    <link rel="stylesheet" type="text/css" href="easymode.css">
+    <script src="brocode.js"></script>
+    <script src="server.js"></script>
+    <script src="numberGuesser.js"></script>
+
+</head>
+<body>
+    <h1>EASY!</h1>
+
+    <h2><span id="name"></span> is playing</h2>
+
+    <div class="x-container">
+        <span class="x"></span>
+        <span class="x"></span>
+        <span class="x"></span>
+    </div>
+
+    <div class="hint-container"></div>
+    <button id="hint" onclick="document.body.classList.toggle('hint')">Hint</button>
+
+    <br>
+    <div class="number-box">
+        <p id="mystery-num"></p>
+
+    </div>
+
+
+    
+    <br>
+
+    <div class="text-container">
+        <input type="text" placeholder="Enter Number here" id="easyguess" onkeydown="
+            if (event.keyCode == 13)
+                guessNumber(false)" />
+    </div>
+
+    <br>
+    <div class="home-container">
+        <button id="home" onclick="homePage()">HOME</button>
+    </div>
+</body>
+</html>

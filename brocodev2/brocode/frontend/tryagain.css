@@ -1,0 +1,21 @@
+h1{text-align: center;
+padding-top: 50px;
+color: aliceblue;
+font-size: 100px;}
+
+body{background-color: black;}
+
+.home-container{text-align: center;}
+
+        #home {margin: 70px;
+            font-size: 15px;
+            width: 70px;
+            height: 70px;
+        background-color:aqua;}
+
+
+.container{text-align: center;}
+#restart{margin: 10px;
+    width:200px;
+    height:50px;
+    font-size: 20px}
