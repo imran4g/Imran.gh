@@ -5,7 +5,7 @@ from discord.ext import commands
 from discord.ext.commands import bot
 
 
-TOKEN = 'OTQ3NTg5NTk4NTA5NDI0NzAx.YhvdlQ.cD7wYFTfhc7kykAG3DMLP2uEKL4'
+TOKEN = 
 bot = commands.Bot(command_prefix='!')
 client = discord.Client()
 
